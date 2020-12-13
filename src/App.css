@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #979dac;
+}
+
+.nav-bar {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.footer-bar {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.year {
+  background-color: #7d8597;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
