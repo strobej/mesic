@@ -4,11 +4,12 @@ import '../App.css';
 
 function Header() {
     return (<div className="nav-bar">
-            <a href="">Logo</a>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
-            <a href="">Home</a>          
+        <div className="header-container">
+            <div className="header-first">
+                <p className="info-name">Amer Mešić</p>
+                <p className="info-title">Advokatski ured</p>
+            </div>
+        </div>        
     </div>);
 }
 
