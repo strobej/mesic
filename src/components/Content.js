@@ -14,9 +14,8 @@ const [modalIsOpen, setModalIsOpen] = useState(false)
         <button id="myBtn" onClick={() => setModalIsOpen(true)}>Građansko pravo</button>
        
         <Modal isOpen={modalIsOpen}>
-            <h2>Modal title</h2>
+            <h2>Modal {data.[props.language].title}</h2>
             <p>Modal Body</p>
-            <p>Language is: {props.language}</p>
 
             <div>
               <button onClick={() => setModalIsOpen(false)}>Zatvori</button>

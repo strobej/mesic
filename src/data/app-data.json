@@ -1,1 +1,9 @@
-{}
+{
+    "ba": {
+        "title":"test naslov"
+    },
+    "en": {
+        "title":"test title"
+    }
+
+}
