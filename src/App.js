@@ -7,16 +7,27 @@ import Footer from '../src/components/Footer';
 
 function App() {
 
+  const [getLang,setLang] = useState("ba");
+
+  function switchLanguage(){
+    console.log(`lang is: ${getLang}`);
+    
+    if (getLang === "ba"){
+      setLang("en");
+    } else {
+      setLang("ba");
+    }
+  }
+
   return (<div className="">
         <div className="info-container">
           <div className="info-contact">+387 33 234 556  Skenderija br.5</div>
-          <a href="">Jezik</a>
+          <div onClick={switchLanguage}>Jezik</div>
         </div>
-          <Header />
 
-          <Content />
-
-          <Footer />
+          <Header language={getLang}/>
+          <Content language={getLang}/>
+          <Footer language={getLang}/>
     </div>
   );
 }

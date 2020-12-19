@@ -6,7 +6,7 @@ import data from '../data/app-data.json';
 
 Modal.setAppElement('#root') 
 
-function Content() {
+function Content(props) {
 const [modalIsOpen, setModalIsOpen] = useState(false)
 
     return(<div className="content-container">
@@ -16,6 +16,7 @@ const [modalIsOpen, setModalIsOpen] = useState(false)
         <Modal isOpen={modalIsOpen}>
             <h2>Modal title</h2>
             <p>Modal Body</p>
+            <p>Language is: {props.language}</p>
 
             <div>
               <button onClick={() => setModalIsOpen(false)}>Zatvori</button>
