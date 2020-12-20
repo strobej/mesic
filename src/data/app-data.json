@@ -1,9 +1,14 @@
 {
     "ba": {
-        "title":"test naslov"
+        "title":"test naslov",
+        "civil":"Građansko Pravo",
+        "civiltext":"Imovinsko-pravni odnosi, Vlasnička prava na nekretninama i pokretninama, Pravo osiguranja, naknade šteta po svim vidovima I osnovama, povrede na radu, police osiguranja, Građansko pravni ugovori svih vrsta, Zemljišnoknjižni postupci,Vanparnični postupci: diobe nekretnina, ostavine I dr."
+
     },
     "en": {
-        "title":"test title"
+        "title":"test title",
+        "civil":"Civil Law",
+        "civiltext":"Property-title issues, Titles to real property and movable property, Insurance law, indemnity for claims of all types and grounds, injury at work, insurance policies, Civil law contracts of all kinds, Land registry procedures, Non-adversarial proceedings: real property divisions, succession proceedings, etc."
     }
 
 }

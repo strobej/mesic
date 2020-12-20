@@ -11,20 +11,17 @@ const [modalIsOpen, setModalIsOpen] = useState(false)
 
     return(<div className="content-container">
 
-        <button id="myBtn" onClick={() => setModalIsOpen(true)}>Građansko pravo</button>
+        <button id="myBtn" onClick={() => setModalIsOpen(true)}>{data.[props.language].civil}</button>
        
         <Modal isOpen={modalIsOpen}>
             <h2>Modal {data.[props.language].title}</h2>
-            <p>Modal Body</p>
+            <p>{data.[props.language].civiltext}</p>
 
             <div>
               <button onClick={() => setModalIsOpen(false)}>Zatvori</button>
             </div>
         </Modal>
 
-
-
-           <button id="myBtn">Građansko pravo</button> 
            <button id="myBtn">Trgovačko pravo</button> 
            <button id="myBtn">Izvršno pravo</button> 
            <button id="myBtn">Radno pravo</button> 
