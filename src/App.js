@@ -20,7 +20,7 @@ function App() {
   return (<div className="">
         <div className="info-container">
           <div className="info-contact">+387 33 234 556  Skenderija br.5</div>
-          <div onClick={switchLanguage}>Jezik</div>
+          <div className="language-change" onClick={switchLanguage}>Jezik</div>
         </div>
 
           <Header language={getLang}/>

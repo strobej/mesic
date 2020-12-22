@@ -1,14 +1,42 @@
 {
     "ba": {
         "title":"test naslov",
-        "civil":"Građansko Pravo",
-        "civiltext":"Imovinsko-pravni odnosi, Vlasnička prava na nekretninama i pokretninama, Pravo osiguranja, naknade šteta po svim vidovima I osnovama, povrede na radu, police osiguranja, Građansko pravni ugovori svih vrsta, Zemljišnoknjižni postupci,Vanparnični postupci: diobe nekretnina, ostavine I dr."
+        "civil":"Građansko pravo",
+        "civiltext":"Imovinsko-pravni odnosi, Vlasnička prava na nekretninama i pokretninama, Pravo osiguranja, naknade šteta po svim vidovima i osnovama, povrede na radu, police osiguranja, Građansko pravni ugovori svih vrsta, Zemljišnoknjižni postupci, Vanparnični postupci: diobe nekretnina, ostavine i dr.",
+        "commercial":"Trgovačko pravo",
+        "commercialtext":"Intelektualno vlasništvo, autorsko pravo, patenti, žigovi, Stečajno pravo, Likvidaciono pravo, Ugovori svih obligacionih osnova, Zaštitni znak (trademark), patenti, zaštita pečata, Pravo trgovačkih društava, Pravo društvenih mreža i internet",
+        "enforcement":"Izvršno pravo",
+        "enforcementtext":"Prigovori protiv izvršnih akata, Izvršenje na pokretninama, Izvršenje na nekretninama, Izvršenje na novčanim sredstvima, Izvršenje pravomoćnih i izvršnih sudskih presuda i drugih vjerodostojnih isprava (mjenica)",
+        "labor":"Radno pravo",
+        "labortext":"Sačinjavanje ugovora sa radnicima, Sačinjavanje radnopravnih akata poslodavcima, Zastupanje u radnim sporovima",
+        "status":"Statusno pravo",
+        "statustext":"Državljanstva upis/ispis, Radne dozvole i dozvole boravka za strance, Upisi u matične knjige",
+        "family":"Porodično pravo",
+        "familytext":"Rastave braka: sastav tužbi, sporazumni prijedlog za razvod braka i zastupanje u sudskim postupcima razvoda braka, Utvrđenje i podjela bračne imovine, Sporovi u vezi brige i skrbi o djeci i uzdržavanja, Utvrđivanja/osporavanje očinstva, majčinstva, Izvršenje presuda za izdržavanje po presudi",
+        "international":"Međunarodno javno i privatno pravo",
+        "internationaltext":"Međunarodni sporovi i arbitraže, Europski izvršni nalog, Sastav zahtjeva (tužbi) i zastupanje pred Europskim sudom za ljudska prava u Strasbourgu, Špedicija, međunarodni zračni, pomorski, željeznički , cestovni i brodski prijevoz osoba i terete",
+        "close":"Zatvori"
 
     },
     "en": {
         "title":"test title",
         "civil":"Civil Law",
-        "civiltext":"Property-title issues, Titles to real property and movable property, Insurance law, indemnity for claims of all types and grounds, injury at work, insurance policies, Civil law contracts of all kinds, Land registry procedures, Non-adversarial proceedings: real property divisions, succession proceedings, etc."
+        "civiltext":"Property-title issues, Titles to real property and movable property, Insurance law, indemnity for claims of all types and grounds, injury at work, insurance policies, Civil law contracts of all kinds, Land registry procedures, Non-adversarial proceedings: real property divisions, succession proceedings, etc.",
+        "commercial":"Commercial Law",
+        "commercialtext":"Intellectual property, copyright, patents, trademarks, Bankruptcy law, Liquidation law, Commercial contracts of all kinds,Trademark, patents, trademark protection, Company law, Social network law and the internet",
+        "enforcement":"Enforcement Law",
+        "enforcementtext":"Complaints against enforceable documents, Enforcement over movable property, Enforcement over real property, Enforcement over money, Enforcement of final and enforceable court judgments and other credible documents (promissory notes/bills of exchange)",
+        "labor":"Labor Law",
+        "labortext":"Drawing up contracts with employees, drawing up labor-related documents of employers, representation in labor disputes",
+        "status":"Status Law",
+        "statustext":"Nationality registration/de-registration, Work permits and residence permits for aliens, Registration in vital records",
+        "family":"Family Law",
+        "familytext":"Divorce: drawing-up divorce petitions, petitions for amicable divorce and representation in divorce proceedings, Establishment and division of marital property, Disputes regarding child custody and maintenance, Establishing/disputing paternity and maternity, Enforcement of maintenance judgments",
+        "international":"International public & private Law",
+        "internationaltext":"International disputes and arbitrations, European enforcement order, Drawing-up applications (actions) and representation before the European Court of Human Rights in Strasbourg, Freight forwarding, international air, sea, rail, road and maritime transport of people and goods",
+        "close":"Close"
+
+
     }
 
 }
