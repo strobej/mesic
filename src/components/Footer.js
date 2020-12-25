@@ -5,7 +5,7 @@ import '../App.css';
 function Footer() {
     return (<div className="footer-bar">
     
-            <p>Sva prava zadržana © 2020 - Advokatski ured Amer Mešić (advokat@gmail.com)</p>
+            <p>Sva prava zadržana © 2020 - Advokatski ured Amer Mešić (amer.advokat@gmail.com)</p>
     </div>);
 }
 
