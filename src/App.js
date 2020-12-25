@@ -7,7 +7,7 @@ import Footer from '../src/components/Footer';
 
 function App() {
 
-  const [getLang, setLang] = useState("ba");
+  const [getLang, setLang] = useState("en");
 
   function switchLanguage(){
     if (getLang === "ba"){
