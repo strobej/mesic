@@ -8,7 +8,8 @@ import Footer from '../src/components/Footer';
 function App() {
 
   const [getLang, setLang] = useState("en");
-
+  let flag = `/${getLang}.png`;
+  
   function switchLanguage(){
     if (getLang === "ba"){
       setLang("en");
@@ -19,8 +20,8 @@ function App() {
 
   return (<div className="">
         <div className="info-container">
-          <div className="info-contact">+387 60 320 4141   amer.advokat@gmail.com</div>
-          <div className="language-change" onClick={switchLanguage}>Jezik</div>
+          <div className="info-contact"><img src="./phone.png"/>+387 60 320 4141<img src="./location.png"/>amer.advokat@gmail.com</div>
+          <div className="language-change" onClick={switchLanguage}><img src={flag}/></div>
         </div>
 
           <Header language={getLang}/>

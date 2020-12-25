@@ -104,11 +104,25 @@ h3 {
   padding-left: 30px;
 }
 
+.info-contact img {
+  width: 16px;
+  height: 16px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
 .language-change {
   padding-right: 50px;
   text-align: right;
   color:white;
   cursor: pointer;
+}
+
+.language-change img {
+  width: 24px;
+  height: 24px;
+  padding-top: 5px;
+  padding-right: 15px;
 }
 
 #service-btn {
