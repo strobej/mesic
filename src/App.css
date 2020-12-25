@@ -35,6 +35,11 @@ a {
   text-align: center;
 }
 
+.footer-bar div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 1024px) {
   body {
     width: 260px;
