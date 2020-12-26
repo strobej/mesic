@@ -31,13 +31,14 @@ a {
   position: fixed;
   bottom: 0px;
   background-color : #1d1f21;
-  color: white;
-  text-align: center;
 }
 
 .footer-bar div {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -102,13 +103,16 @@ h3 {
 .info-contact {
   color:white;
   padding-left: 30px;
+  vertical-align: bottom;
 }
 
 .info-contact img {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   padding-top: 5px;
   padding-left: 15px;
+  padding-right: 5px;
+  vertical-align: bottom; 
 }
 
 .language-change {
@@ -116,6 +120,7 @@ h3 {
   text-align: right;
   color:white;
   cursor: pointer;
+  vertical-align: bottom;
 }
 
 .language-change img {

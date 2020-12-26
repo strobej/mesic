@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
+import data from '../data/app-data.json';
 
 
-function Footer() {
+function Footer(props) {
     return (<div className="footer-bar">
     
-            <div>Sva prava zadržana © 2020 - Advokatski ured Amer Mešić <br/>
-            Terezija bb, Centar Skenderija, 71000 Sarajevo, Bosna i Hercegovina</div>
+                <div>{data[props.language].copyright}<br />{data[props.language].adress}</div>
+            
             </div>);
 }
 

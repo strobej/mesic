@@ -1,6 +1,5 @@
 {
     "ba": {
-        "title":"test naslov",
         "civil":"Građansko pravo",
         "civiltext":"Imovinsko-pravni odnosi, Vlasnička prava na nekretninama i pokretninama, Pravo osiguranja, naknade šteta po svim vidovima i osnovama, povrede na radu, police osiguranja, Građansko pravni ugovori svih vrsta, Zemljišnoknjižni postupci, Vanparnični postupci: diobe nekretnina, ostavine i dr.",
         "commercial":"Trgovačko pravo",
@@ -15,11 +14,14 @@
         "familytext":"Rastave braka: sastav tužbi, sporazumni prijedlog za razvod braka i zastupanje u sudskim postupcima razvoda braka, Utvrđenje i podjela bračne imovine, Sporovi u vezi brige i skrbi o djeci i uzdržavanja, Utvrđivanja/osporavanje očinstva, majčinstva, Izvršenje presuda za izdržavanje po presudi",
         "international":"Međunarodno javno i privatno pravo",
         "internationaltext":"Međunarodni sporovi i arbitraže, Europski izvršni nalog, Sastav zahtjeva (tužbi) i zastupanje pred Europskim sudom za ljudska prava u Strasbourgu, Špedicija, međunarodni zračni, pomorski, željeznički , cestovni i brodski prijevoz osoba i terete",
-        "close":"Zatvori"
+        "close":"Zatvori",
+        "office":"Advokatski ured",
+        "copyright":"Sva prava zadržana © 2020 - Advokatski ured Amer Mešić",
+        "adress":"Terezija bb, Centar Skenderija, 71000 Sarajevo, Bosna i Hercegovina"
 
     },
+
     "en": {
-        "title":"test title",
         "civil":"Civil Law",
         "civiltext":"Property-title issues, Titles to real property and movable property, Insurance law, indemnity for claims of all types and grounds, injury at work, insurance policies, Civil law contracts of all kinds, Land registry procedures, Non-adversarial proceedings: real property divisions, succession proceedings, etc.",
         "commercial":"Commercial Law",
@@ -34,8 +36,10 @@
         "familytext":"Divorce: drawing-up divorce petitions, petitions for amicable divorce and representation in divorce proceedings, Establishment and division of marital property, Disputes regarding child custody and maintenance, Establishing/disputing paternity and maternity, Enforcement of maintenance judgments",
         "international":"International public & private Law",
         "internationaltext":"International disputes and arbitrations, European enforcement order, Drawing-up applications (actions) and representation before the European Court of Human Rights in Strasbourg, Freight forwarding, international air, sea, rail, road and maritime transport of people and goods",
-        "close":"Close"
-
+        "close":"Close",
+        "office":"Law Office",
+        "copyright":"All rights reserved © 2020 - Law Office Amer Mešić",
+        "adress":"Terezija bb, Centar Skenderija, 71000 Sarajevo, Bosnia and Herzegovina"
 
     }
 

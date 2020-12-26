@@ -20,7 +20,7 @@ function App() {
 
   return (<div className="">
         <div className="info-container">
-          <div className="info-contact"><img src="./phone.png"/>+387 60 320 4141<img src="./location.png"/>amer.advokat@gmail.com</div>
+          <div className="info-contact"><img src="./phone.png"/>+387 60 320 4141<img src="./email.png"/>amer.advokat@gmail.com</div>
           <div className="language-change" onClick={switchLanguage}><img src={flag}/></div>
         </div>
 
