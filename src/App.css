@@ -124,10 +124,10 @@ h3 {
 }
 
 .language-change img {
-  width: 24px;
-  height: 24px;
-  padding-top: 5px;
-  padding-right: 15px;
+  width: 34px;
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #service-btn {
