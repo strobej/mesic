@@ -1,14 +1,17 @@
 import React from 'react';
 import '../App.css';
+import data from '../data/app-data.json';
 
 
-function Header() {
+function Header(props) {
+
     return (<div className="nav-bar">
-            <a href="">Logo</a>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
-            <a href="">Home</a>          
+        <div className="header-container">
+            <div className="header-first">
+                <p className="info-name">Amer Mešić</p>
+                <p className="info-title">{data[props.language].office}</p>
+            </div>
+        </div>        
     </div>);
 }
 
