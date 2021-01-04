@@ -130,7 +130,6 @@ h3 {
 }
 
 #service-btn {
-  opacity: 1;
   width: 300px;
   height: 50px;
   white-space: nowrap;
@@ -139,6 +138,7 @@ h3 {
   text-align: center;
   color:#1d1f21;
   outline: none;
+  background-color: white;
 }
 
 #service-btn:hover {
@@ -222,7 +222,7 @@ h3 {
   .language-change img {
     height: 14px;
     width: 20px;
-    padding-left: 25px;
+    padding-left: 80px;
   }
 
   .info-contact {
@@ -244,5 +244,9 @@ h3 {
     height: 150px;
     width: 250px;
     font-size: 12px;
+}
+
+  .footer-bar div {
+    font-size: 10px;
 }
 }
