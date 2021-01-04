@@ -222,6 +222,7 @@ h3 {
   .language-change img {
     height: 14px;
     width: 20px;
+    padding-left: 5px;
   }
 
   .info-contact {
